@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            function say()
+            {
+                //前端需要用 window.webkit.messageHandlers.注册的方法名.postMessage({body:传输的数据} 来给native发送消息
+                window.webkit.messageHandlers.sayhello.postMessage({body: 'hello world!'});
+            }
+        </script>
+    </head>
+    <body>
+        <h1>hello world</h1>
+        <button onclick="say()">say hello</button>
+    </body>
+    
+</html>

@@ -15,6 +15,10 @@
 		401B237420DB97B20091DBD0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 401B237320DB97B20091DBD0 /* main.m */; };
 		401B237E20DB97B20091DBD0 /* WKWebViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 401B237D20DB97B20091DBD0 /* WKWebViewTests.m */; };
 		401B238920DB97B20091DBD0 /* WKWebViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 401B238820DB97B20091DBD0 /* WKWebViewUITests.m */; };
+		401B239820DB98170091DBD0 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 401B239720DB98170091DBD0 /* MainViewController.m */; };
+		401B239B20DB991B0091DBD0 /* WKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 401B239A20DB991B0091DBD0 /* WKWebViewController.m */; };
+		401B239E20DBA1310091DBD0 /* WKDelegateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 401B239D20DBA1310091DBD0 /* WKDelegateViewController.m */; };
+		401B23A020DBA7EC0091DBD0 /* Company-2.html in Resources */ = {isa = PBXBuildFile; fileRef = 401B239F20DBA7EC0091DBD0 /* Company-2.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,13 @@
 		401B238420DB97B20091DBD0 /* WKWebViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WKWebViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		401B238820DB97B20091DBD0 /* WKWebViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKWebViewUITests.m; sourceTree = "<group>"; };
 		401B238A20DB97B20091DBD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		401B239620DB98170091DBD0 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		401B239720DB98170091DBD0 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		401B239920DB991B0091DBD0 /* WKWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WKWebViewController.h; sourceTree = "<group>"; };
+		401B239A20DB991B0091DBD0 /* WKWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKWebViewController.m; sourceTree = "<group>"; };
+		401B239C20DBA1300091DBD0 /* WKDelegateViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WKDelegateViewController.h; sourceTree = "<group>"; };
+		401B239D20DBA1310091DBD0 /* WKDelegateViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKDelegateViewController.m; sourceTree = "<group>"; };
+		401B239F20DBA7EC0091DBD0 /* Company-2.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Company-2.html"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,11 +116,18 @@
 				401B236520DB97B20091DBD0 /* AppDelegate.m */,
 				401B236720DB97B20091DBD0 /* ViewController.h */,
 				401B236820DB97B20091DBD0 /* ViewController.m */,
+				401B239620DB98170091DBD0 /* MainViewController.h */,
+				401B239720DB98170091DBD0 /* MainViewController.m */,
+				401B239920DB991B0091DBD0 /* WKWebViewController.h */,
+				401B239A20DB991B0091DBD0 /* WKWebViewController.m */,
+				401B239C20DBA1300091DBD0 /* WKDelegateViewController.h */,
+				401B239D20DBA1310091DBD0 /* WKDelegateViewController.m */,
 				401B236A20DB97B20091DBD0 /* Main.storyboard */,
 				401B236D20DB97B20091DBD0 /* Assets.xcassets */,
 				401B236F20DB97B20091DBD0 /* LaunchScreen.storyboard */,
 				401B237220DB97B20091DBD0 /* Info.plist */,
 				401B237320DB97B20091DBD0 /* main.m */,
+				401B239F20DBA7EC0091DBD0 /* Company-2.html */,
 			);
 			path = WKWebView;
 			sourceTree = "<group>";
@@ -241,6 +259,7 @@
 				401B237120DB97B20091DBD0 /* LaunchScreen.storyboard in Resources */,
 				401B236E20DB97B20091DBD0 /* Assets.xcassets in Resources */,
 				401B236C20DB97B20091DBD0 /* Main.storyboard in Resources */,
+				401B23A020DBA7EC0091DBD0 /* Company-2.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,9 +284,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				401B239B20DB991B0091DBD0 /* WKWebViewController.m in Sources */,
 				401B236920DB97B20091DBD0 /* ViewController.m in Sources */,
 				401B237420DB97B20091DBD0 /* main.m in Sources */,
 				401B236620DB97B20091DBD0 /* AppDelegate.m in Sources */,
+				401B239820DB98170091DBD0 /* MainViewController.m in Sources */,
+				401B239E20DBA1310091DBD0 /* WKDelegateViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
