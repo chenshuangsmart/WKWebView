@@ -103,9 +103,9 @@
     NSLog(@"didFinishNavigation");
     
     //say()是JS方法名，completionHandler是异步回调block
-    [webView evaluateJavaScript:@"say()" completionHandler:^(id _Nullable result, NSError * _Nullable error) {
-        NSLog(@"evaluateJavaScript %@",result);
-    }];
+//    [webView evaluateJavaScript:@"say()" completionHandler:^(id _Nullable result, NSError * _Nullable error) {
+//        NSLog(@"evaluateJavaScript %@",result);
+//    }];
 }
 
 // 页面加载失败时调用

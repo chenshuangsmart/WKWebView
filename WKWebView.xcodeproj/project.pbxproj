@@ -456,7 +456,7 @@
 				DEVELOPMENT_TEAM = C2V259WG54;
 				INFOPLIST_FILE = WKWebView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = banggood.WKWebView;
+				PRODUCT_BUNDLE_IDENTIFIER = cs.WKWebView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -470,7 +470,7 @@
 				DEVELOPMENT_TEAM = C2V259WG54;
 				INFOPLIST_FILE = WKWebView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = banggood.WKWebView;
+				PRODUCT_BUNDLE_IDENTIFIER = cs.WKWebView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -484,7 +484,7 @@
 				DEVELOPMENT_TEAM = C2V259WG54;
 				INFOPLIST_FILE = WKWebViewTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = banggood.WKWebViewTests;
+				PRODUCT_BUNDLE_IDENTIFIER = cs.WKWebViewTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WKWebView.app/WKWebView";
@@ -499,7 +499,7 @@
 				DEVELOPMENT_TEAM = C2V259WG54;
 				INFOPLIST_FILE = WKWebViewTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = banggood.WKWebViewTests;
+				PRODUCT_BUNDLE_IDENTIFIER = cs.WKWebViewTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WKWebView.app/WKWebView";
@@ -513,7 +513,7 @@
 				DEVELOPMENT_TEAM = C2V259WG54;
 				INFOPLIST_FILE = WKWebViewUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = banggood.WKWebViewUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = cs.WKWebViewUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = WKWebView;
@@ -527,7 +527,7 @@
 				DEVELOPMENT_TEAM = C2V259WG54;
 				INFOPLIST_FILE = WKWebViewUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = banggood.WKWebViewUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = cs.WKWebViewUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = WKWebView;
